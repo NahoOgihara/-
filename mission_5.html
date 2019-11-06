@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title>mission_5</title>
+<link href="mission_3-5style.css" rel="stylesheet">
+</head>
+<body>
+<section class="keijiban-title">
+<h1>みんなの掲示板</h1>
+<p>誰でも自由に発言できる掲示板です。</p>
+</section>
+<form method="POST" action="mission_5.php">
+	
+	<h2>まずはあなたの名前を教えてください。</h2>
+	<p>
+	本名じゃなくてもいいよ〜<br>
+	名前：<input type="text" name="name"><br>
+	</p>
+	<h2>ここが本文。</h2>
+	<p>
+	好きなことを好きに発言しよう。<br>
+	秩序は守ろう。<br>
+	コメント：<input type="text" name="comment"><br>
+	</p>
+	<h2>パスワードを設定しよう。</h2>
+	<p>
+	これであなたの投稿は守られます。<br>
+	パスワード：<input type="password" name="pass"><br>
+	<input type="submit" name="submit1" value="送信"><br><br>
+	</p>
+	<h2>発言撤回！</h2>
+	<p>
+	自由に発言する権利があれば自由に発言を撤回する権利もあります。<br>
+	消したいときはパスワードと消したい投稿番号が必要です。<br>
+	削除対象番号：<input type="text" name="delete"><br>
+	<input type="submit" name="submit2" value="削除"><br>
+	</p>
+	<h2>発言撤回！part2</h2>
+	<p>
+	もちろん発言を変えることも自由です。<br>
+	こちらもパスワードと編集したい投稿番号が必要です。<br>
+	編集対象番号：<input type="text" name="edit"><br>
+	<input type="submit" name="submit3" value="編集"><br>
+	</p>
+	<p>
+	<h2>みんなの発言</h2>
+	</p>
+
+</form>
+</body>
+</html>
